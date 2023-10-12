@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+:root {
+  --primary-color: #fb8500;
+  --secondary-color: #ffb703;
+  --accent1-color: #023047;
+  --accent2-color: #8ecae6;
+
+  --heading-font: "Kadwa", serif;
+  --paragraph-font: "Roboto", sans-serif;
+
+  --nav-background-color: #023047;
+  --nav-link-color: #8ecae6;
+  --nav-hover-link-color: #ffb703;
+  --nav-hover-background-color: #fb8500;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+nav a {
+  display: inline;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+p {
+  padding: 25px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero article img {
+  position: relative;
+  float: right;
+  width: 30%;
+  margin-top: -30px;
+  margin-right: 25px;
+}
+
+.hero article {
+  position: relative;
+}
+
+main div h1 {
+  position: relative;
+  margin-left: 10%;
+}
+
+.hero p {
+  background-color: rgba(133, 193, 233, 0.5);
+  width: 60%;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+#history {
+  margin-top: 17%;
+  position: relative;
+}
+
+.sociallinks a img {
+  width: 40px;
+  margin-top: -30px;
+}
+
+.hero h1 {
+  position: relative;
+  margin-left: 225px;
+  padding-top: 10px;
+}
+
+.hero {
+  margin-top: -21px;
+}

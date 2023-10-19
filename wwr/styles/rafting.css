@@ -101,3 +101,47 @@ main div h1 {
 .hero {
   margin-top: -21px;
 }
+
+/*header grid added*/
+.header-grid{
+  display: grid;
+  grid-template-columns: 25% 70%;
+  justify-content: center;
+  align-content: center;
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+/*added*/
+
+.adventure-img{
+  display: grid;
+ grid-template-columns: 20% 20% 20% 20% 20%;
+
+ align-content: space-around;
+ justify-content: space-around;
+ align-items: center;
+ justify-items: center;
+
+}
+
+.adventure-img figure img{
+  width: 150%;
+
+}
+
+.adventure-img figure figcaption{
+  background-color: rgb(195, 201, 201);
+  margin-top: -5px;
+  width: 150%;
+  font-style: italic;
+  text-align: center;
+}

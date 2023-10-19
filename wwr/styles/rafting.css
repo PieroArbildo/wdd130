@@ -145,3 +145,15 @@ main div h1 {
   font-style: italic;
   text-align: center;
 }
+
+footer{
+  display: flex;
+  align-content: space-around;
+  justify-content: start;
+  align-items: center;
+  justify-items: start;
+}
+
+footer nav a img{
+  width: 30px;
+}

@@ -27,6 +27,12 @@ nav a {
   padding: 1rem;
 }
 
+nav a:hover{
+  color: var(--nav-hover-link-color);
+}
+
+
+
 h1,
 h2,
 h3,
@@ -146,14 +152,188 @@ main div h1 {
   text-align: center;
 }
 
-footer{
+
+/*Footer style*/
+
+footer {
   display: flex;
-  align-content: space-around;
-  justify-content: start;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-items: start;
+  color: #000000; 
+  padding: 10px;
 }
 
-footer nav a img{
-  width: 30px;
+
+footer p {
+  margin: 0;
+}
+
+
+.sociallinks {
+  display: flex;
+  gap: 10px; 
+  align-items: center;
+}
+
+
+/*form style*/
+
+.formulario {
+  width: 450px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.formulario form{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario label.radio-label {
+  font-weight: normal;
+  display: inline;
+}
+
+.formulario input[type="radio"] {
+  margin-right: 5px;
+}
+
+.formulario button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+
+.formulario button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+/*datos*/
+.datos p{
+padding: 0;
+margin-top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.datos h1{
+  text-align: center;
+  margin-left: -5px;
+}
+
+
+.map {
+  display: flex;
+  justify-content: center;
+
+}
+
+.map iframe {
+  width: 500px; 
+  height: 450px;
+  border: 0;
+} 
+
+
+.formulario label{
+  margin-top: 15px;
+}
+
+.formulario button{
+  margin-top: 15px;
+ margin-left: 30%;
+}
+
+.formulario button{
+  margin-top: 15px;
+ margin-left: 40%;
+}
+
+.radio-label{
+  margin-left: 0%;
+}
+
+#subscribe{
+  display: inline;
+
+}
+
+#label-subscribe{
+  display: inline;
+  width: 450px;
+}
+
+
+
+
+
+/* staff */
+
+
+.staff{
+  display: grid;
+ grid-template-columns: 20% 20% 20%;
+
+ align-content: space-around;
+ justify-content: space-around;
+ align-items: center;
+ justify-items: center;
+
+}
+
+.staff figure img{
+  width: 200%;
+
+}
+
+.staff figure figcaption{
+  background-color: rgb(195, 201, 201);
+  margin-top: -5px;
+  width: 200%;
+  font-style: italic;
+  text-align: center;
+}
+
+
+#h2-staff{
+  text-align: center;
+}
+
+
+#h2-Contact{
+  text-align: center;
 }
